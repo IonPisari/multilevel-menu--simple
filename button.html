@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+
+
+    <!-- 
+        JS:
+            -external script
+            -event binding (basics)
+            -functions (basics)
+            -DOM (basics)
+            -Template String (basics)
+        -->
+        <!-- <button onclick="...">click</button>
+        <a href="javascript:....."> click</a>
+        <script>
+            //inline script
+        </script> -->
+        <!-- 
+            EVENTS:
+                
+                user ^_^ ----- > ACTION ----- >BROWSER
+                                                   |
+                                                 event
+                                                   |
+                                                   |
+                                                   |
+                                                  \/
+               js <---------capture <--------   registry CSS :hover, :active, :focus 
+                |                                                      |
+                |                                                      | 
+                |                                                      |
+             callback (reaction)                                  dynamic style (reaction)
+
+
+
+             event binding basic formul
+             <tag on<eventName>="JS code"> ..... </tag>
+         -->
+        
+        <!-- <h1>BEFORE</h1> -->
+        <!-- <h2>AFTER</h2> -->
+
+         <button onclick="increase()">+</button>
+         <button onclick="decrease()">-</button>
+         <button onclick="colorred()">1</button>
+         <button onclick="coloryellow()">2</button>
+         <button onclick="colorblue()">3</button>
+         
+        <div id="container">
+            <div class="box"></div>
+        </div>
+
+
+
+
+
+
+
+        <script src="button.js"></script>
+
+
+</body>
+</html>

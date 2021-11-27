@@ -1,0 +1,7 @@
+body { background-color: #333;}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #222;
+    /* border: 1px solid yellow; */
+}
