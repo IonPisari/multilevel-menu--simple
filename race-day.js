@@ -3,10 +3,7 @@ const earlyRegister = true;
 let runnerAge = 18;
 if(runnerAge >= 18 && earlyRegister === true) {
   raceNumber = raceNumber + 1000;
-} else {
-  raceNumber;
-}
-
+} 
 if (runnerAge >= 18 && earlyRegister === true) {
   console.log ('Your race begins at 9:30 am. Your race number is ' + raceNumber);
 } else if (runnerAge >= 18 && earlyRegister === false) {
