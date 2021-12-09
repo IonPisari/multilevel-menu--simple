@@ -31,6 +31,4 @@ for(i=-1;i<`${randomNumber}`;i++){
     }else if(expectedRes[i] != res) {
         console.log(`test ${randomNumber} failed, reason:got ${res}, expected ${expectedRes}`);
         
-    }
-        
-}
+    };
