@@ -3,9 +3,9 @@ let vowels = ['u', 'e', 'i', 'a', 'e'];
 let resultArray = [];
 for(inputIndex = 0; inputIndex < input.length; inputIndex++) {
     // console.log(inputIndex);
-    for(vowelCheck = 0; vowelCheck < vowels.length; vowelCheck++) {
-        // console.log(vowelCheck);
-        if (input[inputIndex] === vowels[vowelCheck]) {
+    for(checkVowels = 0; checkVowels < vowels.length; checkVowels++) {
+        // console.log(checkVowels);
+        if (input[inputIndex] === vowels[checkVowels]) {
             resultArray.push(input[inputIndex]);
         }
     }
