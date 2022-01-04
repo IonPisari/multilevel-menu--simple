@@ -49,22 +49,20 @@ for (let i = 1; i <= 10; i++) {
 //6.Calculate 10!
 
 
-// const ten = result => {
-//     let res = 0;
-//     for (let i = 0; i < result.length; i++) {
-//         res += result[i];
-//     }
-//     console.log(res);
+// let a = 10;
+// let b = 1;
+// for(let i = a; i >= 1; i--) {
+//     b = b * i;
 // }
-// ten([1, 2, 3, 4]);
+// console.log(b)
 
 
 //7.Calculate the sum of odd numbers greater than 10 and less than 30
 
 
 
-// let sum = 10;
-// for (let i = 10; i <= 30; i++) {
+// let sum = 0;
+// for (let i = 11; i < 30; i+=2) {
 //     sum += i;
 // }
 // console.log(sum);
